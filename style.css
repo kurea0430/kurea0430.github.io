@@ -1,52 +1,64 @@
 body {
   margin: 0;
-  font-family: sans-serif;
-  background: #f7f7f7;
-  color: #222;
+  min-height: 100vh;
+  background: #111827;
+  color: #e5e7eb;
+  font-family: system-ui, sans-serif;
 }
 
 main {
   max-width: 720px;
   margin: 0 auto;
-  padding: 60px 24px;
+  padding: 64px 24px;
 }
 
 .icon {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
+  width: 140px;
+  height: 140px;
+  border-radius: 16px;
   object-fit: cover;
+  margin-bottom: 24px;
 }
 
 h1 {
   font-size: 40px;
-  margin-bottom: 8px;
+  margin: 0 0 16px;
 }
 
-.copy {
-  color: #666;
-  margin-bottom: 32px;
+p {
+  line-height: 1.8;
+  color: #d1d5db;
+}
+
+a {
+  color: #93c5fd;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 nav {
-  margin-bottom: 48px;
+  margin: 20px 0 48px;
 }
 
 nav a {
-  margin-right: 20px;
-  color: #222;
-  text-decoration: none;
-  border-bottom: 1px solid #222;
+  margin-right: 16px;
 }
 
 section {
-  margin-bottom: 48px;
+  margin-top: 40px;
 }
 
 h2 {
-  font-size: 24px;
-  border-bottom: 1px solid #ddd;
-  padding-bottom: 8px;
+  font-size: 20px;
+  margin-bottom: 12px;
+  color: #f9fafb;
+}
+
+ul {
+  padding-left: 20px;
 }
 
 li {
