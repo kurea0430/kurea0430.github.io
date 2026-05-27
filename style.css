@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: #f7f7f7;
+  color: #222;
+}
+
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 60px 24px;
+}
+
+.icon {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+h1 {
+  font-size: 40px;
+  margin-bottom: 8px;
+}
+
+.copy {
+  color: #666;
+  margin-bottom: 32px;
+}
+
+nav {
+  margin-bottom: 48px;
+}
+
+nav a {
+  margin-right: 20px;
+  color: #222;
+  text-decoration: none;
+  border-bottom: 1px solid #222;
+}
+
+section {
+  margin-bottom: 48px;
+}
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 8px;
+}
+
+li {
+  margin-bottom: 8px;
+}
